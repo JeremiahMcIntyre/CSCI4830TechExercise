@@ -1,0 +1,63 @@
+<html>
+<head>
+<style>
+header {
+    background-color:black;
+    color:white;
+    text-align:center;
+    padding:5px;     
+}
+nav {
+    line-height:30px;
+    background-color:#eeeeee;
+    height:300px;
+    width:100px;
+    float:left;
+    padding:5px;         
+}
+section {
+    width:350px;
+    float:left;
+    padding:10px;       
+}
+footer {
+    background-color:black;
+    color:white;
+    clear:both;
+    text-align:center;
+    padding:5px;         
+}
+.input-small {
+    width: 50px;
+}
+</style>
+</head>
+
+<body>
+<header>
+<h1> Insert Sales Contact Data</h1>
+</header>
+
+<nav>
+<a href="/webproject/Search.html">Search Data</a> <br>
+</nav>
+
+<section>
+    <h1>Sales Contact Input</h1>
+    
+    <form action="SimpleInsert" method="POST">
+    
+        Name: <input type="text" name="name"> <br />
+        Address: <input type="text" name="address"> <br />
+        Phone Number: <input type="text" name="phoneNumber"> <br />
+        Email: <input type="text" name="email"> <br />
+        
+        <input type="submit" value="Submit" />
+    </form>
+
+</section>
+
+<footer>
+</footer>
+</body>
+</html>
